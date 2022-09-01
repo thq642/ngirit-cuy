@@ -7,7 +7,7 @@ function authenticate(req, res, next) {
   if (LOGIN && PASSWORD) {
     const credentials = auth(req)
     if (!credentials || credentials.name !== LOGIN || credentials.pass !== PASSWORD) {
-      res.setHeader('WWW-Authenticate', `Basic realm="ngirit-cuy Compression Service"`)
+      res.setHeader('WWW-Authenticate', `Basic realm="Ngirit-cuy Compression Service"`)
 
       return res.status(401).end('Access denied')
     }
