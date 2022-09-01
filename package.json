@@ -1,0 +1,22 @@
+{
+  "name": "ngirit",
+  "main": "server.js",
+  "private": true,
+  "version": "1.0.1",
+  "description": "Data compression service that converts images to low-res WebP or JPEG on the fly.",
+  "author": "riq",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "basic-auth": "^2.0.1",
+    "dotenv": "^16.0.2",
+    "express": "4.17.1",
+    "lodash": "^4.17.21",
+    "request": "^2.88.2",
+    "sharp": "^0.28.2"
+  },
+  "engines": {
+    "node": "16.x"
+  }
+}
